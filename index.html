@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badra Studio – Professional Illustration Portfolio</title>
+    <!-- Google font for a clean, modern look -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header with logo and navigation -->
+    <header class="header">
+      <div class="container header-content">
+        <a href="#home" class="logo">Badra&nbsp;Studio</a>
+        <!-- Mobile menu toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <!-- Navigation links -->
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#profile">Profile</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section with a striking background image -->
+    <section id="home" class="hero">
+      <img
+        src="images/hero.png"
+        alt="Abstract minimalistic background"
+        class="hero-image"
+      />
+      <div class="hero-overlay">
+        <h1>Badra Studio</h1>
+        <p>Professional illustration &amp; visual storytelling</p>
+        <a href="#portfolio" class="btn">View Portfolio</a>
+      </div>
+    </section>
+
+    <!-- Profile/About section -->
+    <section id="profile" class="profile section">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          <strong>Badra Studio</strong> is a professional illustration studio based in
+          Indonesia. We specialise in crafting compelling visual narratives across
+          editorial, advertising, publishing and digital media. Our work ranges
+          from concept art and character design to detailed illustrations that
+          tell a story and inspire imagination.
+        </p>
+        <p>
+          Founded by a passionate team of artists, our design philosophy is
+          grounded in minimalism — utilising clean lines and striking contrasts
+          to convey complex ideas simply and beautifully. We collaborate with
+          clients around the globe to bring ideas to life and embrace each
+          project as a unique opportunity to push creative boundaries.
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio/gallery section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="images/portfolio1.png"
+              alt="Abstract line art illustration"
+            />
+            <figcaption>Abstract line art</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="images/portfolio2.png"
+              alt="Minimalist geometric illustration"
+            />
+            <figcaption>Geometric composition</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="images/portfolio3.png"
+              alt="Monochromatic abstract landscape"
+            />
+            <figcaption>Abstract landscape</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="images/portfolio4.png"
+              alt="Minimal portrait silhouette"
+            />
+            <figcaption>Portrait silhouette</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="images/portfolio5.png"
+              alt="Abstract cityscape"
+            />
+            <figcaption>Cityscape</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="images/portfolio6.png"
+              alt="Abstract floral pattern"
+            />
+            <figcaption>Floral pattern</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section with a simple form -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <p>
+          We’d love to hear about your next project. Fill out the form below
+          or contact us directly at
+          <a href="mailto:hello@badrastudio.com">hello@badrastudio.com</a>.
+        </p>
+        <form
+          class="contact-form"
+          action="mailto:hello@badrastudio.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Badra Studio. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
